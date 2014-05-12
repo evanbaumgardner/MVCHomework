@@ -36,7 +36,7 @@
     self.usernameLabel.text = self.myPost.userName;
     self.date.text = [self.myPost.date description];
     self.title.text = self.myPost.title;
-    
+    self.content.text = self.myPost.content;
 
 
 }

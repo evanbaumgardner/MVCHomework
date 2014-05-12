@@ -15,7 +15,7 @@
 @property IBOutlet UILabel *usernameLabel;
 @property IBOutlet UILabel *date;
 @property IBOutlet UILabel *title;
-
+@property IBOutlet UILabel *content;
 
 - (void) refreshDisplay;
 

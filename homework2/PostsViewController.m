@@ -168,6 +168,10 @@
     return cell;
 }
 
+-(void) tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [self performSegueWithIdentifier: @"DetailSegue" sender: self];
+}
 
 /*
 // Override to support conditional editing of the table view.

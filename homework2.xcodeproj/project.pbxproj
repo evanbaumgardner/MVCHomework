@@ -23,6 +23,7 @@
 		35AC26AF1920150D00F14ED8 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AC26AE1920150D00F14ED8 /* Post.m */; };
 		35AC26B21920177900F14ED8 /* PostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AC26B11920177900F14ED8 /* PostTableViewCell.m */; };
 		35AC26B5192019B600F14ED8 /* PostsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AC26B4192019B600F14ED8 /* PostsViewController.m */; };
+		35AC26BE1920724300F14ED8 /* rocketscienceFINAL.png in Resources */ = {isa = PBXBuildFile; fileRef = 35AC26BD1920724300F14ED8 /* rocketscienceFINAL.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		35AC26B11920177900F14ED8 /* PostTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostTableViewCell.m; sourceTree = "<group>"; };
 		35AC26B3192019B600F14ED8 /* PostsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostsViewController.h; sourceTree = "<group>"; };
 		35AC26B4192019B600F14ED8 /* PostsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostsViewController.m; sourceTree = "<group>"; };
+		35AC26BD1920724300F14ED8 /* rocketscienceFINAL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocketscienceFINAL.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 				35AC26811920148100F14ED8 /* InfoPlist.strings */,
 				35AC26841920148100F14ED8 /* main.m */,
 				35AC26861920148100F14ED8 /* homework2-Prefix.pch */,
+				35AC26BD1920724300F14ED8 /* rocketscienceFINAL.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35AC26911920148100F14ED8 /* Images.xcassets in Resources */,
+				35AC26BE1920724300F14ED8 /* rocketscienceFINAL.png in Resources */,
 				35AC26831920148100F14ED8 /* InfoPlist.strings in Resources */,
 				35AC268C1920148100F14ED8 /* Main.storyboard in Resources */,
 			);
