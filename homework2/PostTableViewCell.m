@@ -10,6 +10,9 @@
 
 @implementation PostTableViewCell
 
+
+
+
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
@@ -37,8 +40,14 @@
     self.date.text = [self.myPost.date description];
     self.title.text = self.myPost.title;
     self.content.text = self.myPost.content;
-
+    
 
 }
 
+- (IBAction)unwindToPostsViewController:(UIStoryboardSegue *)unwindSegue
+{
+}
+
+
 @end
+
