@@ -14,13 +14,15 @@
 		35AC26851920148100F14ED8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AC26841920148100F14ED8 /* main.m */; };
 		35AC26891920148100F14ED8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AC26881920148100F14ED8 /* AppDelegate.m */; };
 		35AC268C1920148100F14ED8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35AC268A1920148100F14ED8 /* Main.storyboard */; };
-		35AC268F1920148100F14ED8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AC268E1920148100F14ED8 /* ViewController.m */; };
 		35AC26911920148100F14ED8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35AC26901920148100F14ED8 /* Images.xcassets */; };
 		35AC26981920148100F14ED8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AC26971920148100F14ED8 /* XCTest.framework */; };
 		35AC26991920148100F14ED8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AC26781920148100F14ED8 /* Foundation.framework */; };
 		35AC269A1920148100F14ED8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AC267C1920148100F14ED8 /* UIKit.framework */; };
 		35AC26A21920148100F14ED8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35AC26A01920148100F14ED8 /* InfoPlist.strings */; };
 		35AC26A41920148100F14ED8 /* homework2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AC26A31920148100F14ED8 /* homework2Tests.m */; };
+		35AC26AF1920150D00F14ED8 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AC26AE1920150D00F14ED8 /* Post.m */; };
+		35AC26B21920177900F14ED8 /* PostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AC26B11920177900F14ED8 /* PostTableViewCell.m */; };
+		35AC26B5192019B600F14ED8 /* PostsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AC26B4192019B600F14ED8 /* PostsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +47,18 @@
 		35AC26871920148100F14ED8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		35AC26881920148100F14ED8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		35AC268B1920148100F14ED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		35AC268D1920148100F14ED8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		35AC268E1920148100F14ED8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		35AC26901920148100F14ED8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		35AC26961920148100F14ED8 /* homework2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = homework2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35AC26971920148100F14ED8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		35AC269F1920148100F14ED8 /* homework2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "homework2Tests-Info.plist"; sourceTree = "<group>"; };
 		35AC26A11920148100F14ED8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		35AC26A31920148100F14ED8 /* homework2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homework2Tests.m; sourceTree = "<group>"; };
+		35AC26AD1920150D00F14ED8 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		35AC26AE1920150D00F14ED8 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		35AC26B01920177900F14ED8 /* PostTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostTableViewCell.h; sourceTree = "<group>"; };
+		35AC26B11920177900F14ED8 /* PostTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostTableViewCell.m; sourceTree = "<group>"; };
+		35AC26B3192019B600F14ED8 /* PostsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostsViewController.h; sourceTree = "<group>"; };
+		35AC26B4192019B600F14ED8 /* PostsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +118,9 @@
 		35AC267E1920148100F14ED8 /* homework2 */ = {
 			isa = PBXGroup;
 			children = (
-				35AC26871920148100F14ED8 /* AppDelegate.h */,
-				35AC26881920148100F14ED8 /* AppDelegate.m */,
-				35AC268A1920148100F14ED8 /* Main.storyboard */,
-				35AC268D1920148100F14ED8 /* ViewController.h */,
-				35AC268E1920148100F14ED8 /* ViewController.m */,
+				35AC26B71920388900F14ED8 /* Models */,
+				35AC26B61920386D00F14ED8 /* Views */,
+				35AC26B8192038AA00F14ED8 /* Controllers */,
 				35AC26901920148100F14ED8 /* Images.xcassets */,
 				35AC267F1920148100F14ED8 /* Supporting Files */,
 			);
@@ -126,6 +130,8 @@
 		35AC267F1920148100F14ED8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				35AC26871920148100F14ED8 /* AppDelegate.h */,
+				35AC26881920148100F14ED8 /* AppDelegate.m */,
 				35AC26801920148100F14ED8 /* homework2-Info.plist */,
 				35AC26811920148100F14ED8 /* InfoPlist.strings */,
 				35AC26841920148100F14ED8 /* main.m */,
@@ -150,6 +156,34 @@
 				35AC26A01920148100F14ED8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		35AC26B61920386D00F14ED8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				35AC26B01920177900F14ED8 /* PostTableViewCell.h */,
+				35AC26B11920177900F14ED8 /* PostTableViewCell.m */,
+				35AC268A1920148100F14ED8 /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		35AC26B71920388900F14ED8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				35AC26AD1920150D00F14ED8 /* Post.h */,
+				35AC26AE1920150D00F14ED8 /* Post.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		35AC26B8192038AA00F14ED8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				35AC26B3192019B600F14ED8 /* PostsViewController.h */,
+				35AC26B4192019B600F14ED8 /* PostsViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +283,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35AC268F1920148100F14ED8 /* ViewController.m in Sources */,
 				35AC26891920148100F14ED8 /* AppDelegate.m in Sources */,
 				35AC26851920148100F14ED8 /* main.m in Sources */,
+				35AC26B5192019B600F14ED8 /* PostsViewController.m in Sources */,
+				35AC26AF1920150D00F14ED8 /* Post.m in Sources */,
+				35AC26B21920177900F14ED8 /* PostTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

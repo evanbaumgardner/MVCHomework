@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PostsTableViewController.h
 //  homework2
 //
 //  Created by Evan Baumgardner on 5/11/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface PostsViewController : UIViewController
 
 @end
